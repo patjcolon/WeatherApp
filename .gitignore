@@ -1,0 +1,2 @@
+# Keeps all instances of __pycache__ folder from being added to git branches
+**__pycache__

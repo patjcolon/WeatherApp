@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="30;url=http://127.0.0.1:5000/" />
+  <title>Document</title>
+</head>
+<body>
+  <form action="{{ url_for('index')}}" method="post">
+    <label for="cityname">City Name:</label>
+    <input type="text" id="cityname" name="city_name" placeholder="cityname">
+    <button type="submit">Get Forecast</button>
+  </form>
+</body>
+</html>
