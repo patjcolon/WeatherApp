@@ -1,0 +1,28 @@
+
+#title {
+    background-color: aliceblue;
+    color: aliceblue;
+    border-bottom: solid 3px #0d6efd;
+}
+
+.gradient-background {
+    background: linear-gradient(120deg, #d5e224, #40daee, #750991);
+    background-size: 120% 100%;
+    animation: gradient-animation 18s ease infinite;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+.page-container {
+    display: flex;
+    padding: 2rem;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.day-forecast {
+    margin: 0.25rem;
+    background-color: whitesmoke;
+    color: black;
+}

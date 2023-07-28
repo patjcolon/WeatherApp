@@ -5,10 +5,9 @@ import json
 import requests
 from model import Weather, dt
 
-API_KEY: Final[str] = 'insert api key here from api.openweathermap.org'
+API_KEY: Final[str] = 'REDACTED' #Get API key from https://api.openweathermap.org
 BASE_URL: Final[str] = 'https://api.openweathermap.org/data/2.5/forecast'
 GEO_URL: Final[str] = 'https://api.openweathermap.org/geo/1.0/direct'
-'https://api.openweathermap.org/geo/1.0/direct?q=tokyo&appid=02f1aa107378f96a7dfaf5baba998934'
 
 
 def get_lat_lon(city_name: str) -> tuple:

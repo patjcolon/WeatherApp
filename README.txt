@@ -10,7 +10,19 @@ Provide the weather forecasts for user's city for every 3 hours in the next 5 da
 
 TODO:
 0. Create/update docstrings for modules and functions
-1. Format backend data to better suit frontend presentation
-2. Fix app redirecting to home
-3. Create clean and styled HTML & CSS for app
-4. Host app on server
+
+
+Accomplished:
+Format backend data to better suit frontend presentation
+- I learned about Jinja engine and running Jinja-Python code
+  in my HTML files
+
+Fix app redirecting to home
+- I had a refresh page code in my forecast.html that weather_details
+  redirecting to home. Fixed.
+
+Create clean and styled HTML & CSS for app
+- Used Bootstrap and some custom CSS to pretty up the pages
+
+Host app on server
+- https://patjcolon.pythonanywhere.com

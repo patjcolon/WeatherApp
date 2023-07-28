@@ -46,6 +46,16 @@ class Weather:
 
     """
 
+    def get_formatted_data(self):
+        return f"""{self.date:%I:%M %p} - {self.description.title()},
+        Temperature: {self.temperature}°F,
+        Humidity: {self.humidity}%,
+        Winds: {self.wind_knots} knots {self.wind_direction},
+        Cloud coverage: {self.cloud_coverage}%|"""
+
+
+
+
 # retired weather formatting. replaced by model
 def format_weather_details(data: dict):
     def degrees_to_compass(degrees:float) -> str:
