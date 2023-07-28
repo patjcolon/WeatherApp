@@ -36,11 +36,6 @@ def main(user_city:str = 'tokyo'):
     return city_banner, full_forecast
 
 
-# if __name__ == '__main__':
-#     forecast = main()
-#     print(forecast[1])
-
-
 app = Flask(__name__, static_url_path='/static')
 
 city = 'tokyo'
