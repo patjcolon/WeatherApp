@@ -10,6 +10,7 @@ Provide the weather forecasts for user's city for every 3 hours in the next 5 da
 
 TODO:
 0. Create/update docstrings for modules and functions
+1. Clean code / reformat
 
 
 Accomplished:
